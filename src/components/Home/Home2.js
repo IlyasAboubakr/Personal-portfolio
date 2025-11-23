@@ -10,20 +10,17 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me  <span className="purple"> introduce </span> myself
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              My name is Ilyas Aboubakr, and im actually a 2nd year student at ISTA Mohammédia in IT . I am a passionate and motivated second-year student specializing in Digital Development. My academic journey has provided me with a strong foundation in modern web technologies, including HTML, CSS, JavaScript, and React. I am deeply curious about the intersection of design and functionality, and I enjoy building responsive, user-friendly web applications .
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, React.js , PHP , Laravel {" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,17 +30,16 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and in the next few years, I plan to specialize in  <b className="purple">Game Development</b> and <b className="purple">Anti-cheat systems</b>.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> React.js </b> and {" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Laravel</b>.
               </i>
             </p>
           </Col>
