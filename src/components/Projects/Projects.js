@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import chatify from "../../Assets/Projects/chatify.png";
+import original from "./original.png";
 
 function Projects() {
   return (
@@ -24,6 +25,16 @@ function Projects() {
               title="Raja Club Athletic Shop"
               description="A dynamic e-commerce platform built with PHP. The shop allows fans to browse and purchase official merchandise, including jerseys, training gear, and accessories."
               ghLink="https://github.com/IlyasAboubakr/Raja-Club-Athletic-shop-website"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={original}
+              isBlog={false}
+              title="Discord Bot"
+              description="Discord Bot is a customizable automation bot you created and published on GitHub to extend the functionality of a Discord server.It’s designed to interact with users in Discord using programmed commands, respond to messages, and perform automated tasks when installed and run on a server."
+              ghLink="https://github.com/IlyasAboubakr/Discord-Bot"
               
             />
           </Col>
